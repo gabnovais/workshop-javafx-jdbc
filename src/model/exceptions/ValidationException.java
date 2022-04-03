@@ -22,5 +22,4 @@ public class ValidationException extends RuntimeException {
 	public void addError(String fieldName, String errorMessage) {
 		errors.put(fieldName, errorMessage);
 	}
-
 }
